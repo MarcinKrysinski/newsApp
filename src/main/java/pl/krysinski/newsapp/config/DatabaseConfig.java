@@ -13,7 +13,7 @@ public class DatabaseConfig {
     private DataSource dataSource;
 
     @Autowired
-    private DatabaseConfig(DataSource dataSource) {
+    public DatabaseConfig(DataSource dataSource) {
         this.dataSource = dataSource;
     }
 
